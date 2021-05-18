@@ -77,19 +77,23 @@ a:hover{
 @media (max-width: 700px) { 
     .f-container{
         display:  flex;
-        flex-wrap: wrap;
-        padding-top: 1em;
-        font-size:.1rem ;      
+        flex-wrap: wrap;    
     }
-
+    .nav-text > a{
+        font-size: 0.75rem;
+        align-items: center;
+    }
+   
 footer{
     display: flex;
     flex-wrap: wrap;
-}
-.f-nav > a{
-    font-size:0.375rem;
-    margin-top: 0;
     padding: 0;
+    margin-top: 3em;
+}
+.f-nav >a{
+    font-size:0.562rem; 
+    padding:0 0.5em 7em;
+  
 }
 
     
@@ -194,11 +198,14 @@ REGISTER PAGE*/
 }
 @media (max-width:600px) {
     .body-wrapper{
-        margin: 5em 5em;
+        margin: 5em 2em;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap:20px;
         color: #64888B;
+    }
+    .wrapper{
+        font-size:0.75rem ;
     }
     
 }

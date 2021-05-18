@@ -72,6 +72,11 @@ a:hover{
     align-items: center;
 
 }
+.wraper :hover{
+  background-color:white ;
+
+}
+
 
 
 @media (max-width: 700px) { 
@@ -160,11 +165,13 @@ margin-top: 60px;
     max-width:100% ;
     border-radius: 3px;
 }
-.h1{
+a .h1{
     font-size: 1.312rem;
-
+    color:#64888B ;
 }
-
+.h1:hover{
+    color: #23272D;
+}
 
 footer{
     display: flex;
@@ -172,7 +179,8 @@ footer{
     background-color: #293F50;
     height:20vh;
     align-items: center;
-    justify-content: center;
+    padding:0 2em ;
+    justify-content: space-between;
 }
 
 /* 
@@ -204,7 +212,7 @@ REGISTER PAGE*/
         grid-gap:20px;
         color: #64888B;
     }
-    .wrapper{
+    .table-wrapper{
         font-size:0.75rem ;
     }
     
@@ -261,11 +269,9 @@ label{
 /* SCHEDULE PAGE */
 table {
     border-collapse: collapse;
-    width: 100%;
   }
 td {
     padding: 5px;
-    text-align: left;
     border-bottom: 1px solid #d9e1d9 ;
     height: 70px;
   }
@@ -273,8 +279,10 @@ td {
       border-bottom: none;
   }
 
-
-
+  .table-content{
+    max-width:90% ;
+    margin: 4em auto;
+}
 
 
 

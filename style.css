@@ -103,16 +103,19 @@ a:hover{
 }
 
 
-
+ul{
+    padding: 0;
+}
 .nav{
     display: flex;
     list-style: none;
+    justify-content: space-between;
 }
 .date{
     font-size: 1.312rem;
 }
 .nav >li{
-    padding-left:10px;
+   
     font-weight: 400;
     /* font-size: 0.875rem; */
     
@@ -279,12 +282,27 @@ td {
     .f-container{
         display:  flex;
         flex-wrap: wrap; 
+   
         justify-content: center;   
     }
     .nav-text > a{
         font-size: 0.75rem;
         align-items: center;
     }
+    .logo{
+        font-size:2rem ;
+        margin-bottom:2px;
+    }
+
+    .header{
+        font-size: 1.875rem;
+
+    }
+    .header-text{
+        font-size: 1.125rem;
+
+    }
+   
    
 .footer-content{
     display: flex;

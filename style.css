@@ -169,6 +169,11 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
+.f-nav >a{
+ 
+    padding-right:.5em;
+  
+}
 
 /* 
 REGISTER PAGE*/
@@ -312,7 +317,7 @@ td {
 }
 .f-nav >a{
     font-size:0.562rem; 
-    /* padding-right:1em; */
+    padding-right:.5em;
   
 }
 

@@ -1,7 +1,7 @@
 
 :root {
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 15px;
     }
     
     *,
@@ -12,9 +12,9 @@
 
 
 body{
-    font-family: lato,"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
-    font-weight: 300;
+    font-weight: 100;
     color: #64888B;
    
     
@@ -66,12 +66,12 @@ a:hover{
 
 }
 .logo{
-    font-family:Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+    font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
     font-size: 48px;
-    color: #648880;
-    
+    color: #648880;   
 }
+
 .wraper{
     display: flex;
     justify-content: center;
@@ -137,6 +137,7 @@ margin-top: 60px;
 .header{
     font-size:2.25rem;
     color:#64888B ;
+    font-weight: 300;
     line-height:44px ;
     margin: 0;
 }
@@ -145,6 +146,7 @@ margin-top: 60px;
     line-height:44px ;
     margin: 0 0 1em 0;
 }
+
 h4{
     font-weight: 300;
 }
